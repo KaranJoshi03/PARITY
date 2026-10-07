@@ -1,0 +1,18 @@
+{
+  "module": "01_integer_division",
+  "backend": "ollama",
+  "model_name": "codellama",
+  "parameters": {
+    "temperature": 0.0,
+    "seed": 42,
+    "prompt_version": "v1",
+    "base_url": "http://localhost:11434"
+  },
+  "prompt": "You are an expert Python migration engineer.\nYour task is to translate the following Python 2 code to Python 3.\n\nCRITICAL INSTRUCTIONS:\n1. Preserve observable behavior EXACTLY. Do NOT improve, clean up, or refactor the code.\n2. Do not add type annotations, extra docstrings, or change variable names.\n3. Preserve all return types, integer/float division semantics, string/bytes differences, and exception behaviors.\n4. Output ONLY the migrated Python 3 code wrapped in a single ```python code block. Do not include introductory or concluding conversational text.\n\nPython 2 Source Code:\n```python\ndef calculate(a, b):\n    return a / b\n\nif __name__ == \"__main__\":\n    print(calculate(7, 2))\n\n```\n",
+  "raw_output": "URLError connecting to Ollama at http://localhost:11434: HTTP Error 404: Not Found",
+  "parsed_code": "",
+  "parse_ok": false,
+  "parse_error": "Ollama connection failure: HTTP Error 404: Not Found",
+  "timestamp": "2026-10-06T21:45:39.585623+00:00",
+  "duration_ms": 2085.0517749786377
+}

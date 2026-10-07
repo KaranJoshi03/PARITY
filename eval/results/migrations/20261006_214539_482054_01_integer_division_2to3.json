@@ -1,0 +1,16 @@
+{
+  "module": "01_integer_division",
+  "backend": "2to3",
+  "model_name": "lib2to3",
+  "parameters": {
+    "fixes": "all",
+    "deterministic": true
+  },
+  "prompt": "lib2to3 AST fixers",
+  "raw_output": "def calculate(a, b):\n    return a / b\n\nif __name__ == \"__main__\":\n    print((calculate(7, 2)))\n\n",
+  "parsed_code": "def calculate(a, b):\n    return a / b\n\nif __name__ == \"__main__\":\n    print((calculate(7, 2)))\n\n",
+  "parse_ok": true,
+  "parse_error": null,
+  "timestamp": "2026-10-06T21:45:39.022196+00:00",
+  "duration_ms": 459.8574638366699
+}

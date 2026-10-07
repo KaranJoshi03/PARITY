@@ -1,0 +1,16 @@
+{
+  "module": "15_print_formatting",
+  "backend": "2to3",
+  "model_name": "lib2to3",
+  "parameters": {
+    "fixes": "all",
+    "deterministic": true
+  },
+  "prompt": "lib2to3 AST fixers",
+  "raw_output": "def print_data(a, b):\n    print(a, b)\n\nif __name__ == \"__main__\":\n    print_data(\"hello\", 42)\n\n",
+  "parsed_code": "def print_data(a, b):\n    print(a, b)\n\nif __name__ == \"__main__\":\n    print_data(\"hello\", 42)\n\n",
+  "parse_ok": true,
+  "parse_error": null,
+  "timestamp": "2026-10-06T21:45:39.484053+00:00",
+  "duration_ms": 48.015594482421875
+}
